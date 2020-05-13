@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/refresh"
+        android:title="Refresh"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_refresh"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/webview_core"
+        android:title="WebView Core"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_next" />
+
+    <item
+        android:id="@+id/safe_entry"
+        android:title="Safe Entry"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_next" />
+</menu>
